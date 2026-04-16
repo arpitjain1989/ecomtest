@@ -1,0 +1,38 @@
+<html>
+
+		<head>
+		
+				<script>
+						function sum()
+						{
+						
+						
+						   var v1 = parseInt(document.getElementById('val1').value);
+						   var v2 = parseInt(document.getElementById('val2').value);
+						  document.getElementById("res").value=v1+v2;
+						
+						}
+						function mul()
+						{
+						
+						 var v1 = parseInt(document.getElementById('val1').value);
+						   var v2 = parseInt(document.getElementById('val2').value);
+						  document.getElementById("res").value=v1*v2;
+						
+						
+						}
+				</script>
+		</head>
+		<body>
+		
+		
+					<label>val1</label><input type='number' id='val1' name='val1'><br>
+					<label>val2</label><input type='number' id='val2' name='val2'><br>
+					<label>Result</label><input type='number' id='res' name='res'><br>
+					<button type='button' onclick='sum()'>Sum</button>
+					<button type="button" onclick='mul()'>Mul</button>
+		
+		
+		</body>
+		
+</html>

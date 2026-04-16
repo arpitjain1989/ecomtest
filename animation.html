@@ -1,0 +1,52 @@
+<html>
+
+        <head>
+
+                    <script src="js/jquery.js"></script>
+
+                    <script>
+
+                                $(document).ready(function(){
+
+                                    $("#btn1").click(function(){
+
+                                        $("#div1").animate({left:'250px'},1000);
+                                        $("#div1").animate({top:'250px'},1000)
+                                        $("#div1").animate({left:'0px'},1000)
+                                        $("#div1").animate({top:'0px'},1000,function(){
+
+
+
+                                            alert("Animation Completed !");
+                                        })
+
+
+
+
+
+
+
+
+                                    })
+
+
+
+
+
+
+
+                                })
+
+
+
+                    </script>
+
+        </head>
+        <body>
+
+
+                    <div id="div1" style="height:100px;width:100px;position:absolute;background-color:aquamarine"></div>
+<br><br><br><br><br><br>
+                    <button type="button" id="btn1">Click Me</button>
+        </body>
+</html>
